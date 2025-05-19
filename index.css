@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .responsive-img {
+    max-height: 235px; /* Adjust the height for smaller screens */
+  }
+  .responsive-img2 {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box1,
+  .box2 {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+
+  .box1 {
+    height: 150px; /* Adjust the height for smaller screens */
+    width: 100px;
+  }
+
+  .box2 {
+    height: 150px; /* Adjust the height for smaller screens */
+    width: 100px;
+  }
+}
